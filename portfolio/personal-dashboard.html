@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Personal Dashboard</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="../css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../img/shelby-logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="../index.html#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro portfolio-intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Personal Dashboard</strong>Chrome Extension
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">API integration, Async JS, JavaScript, HTML & CSS</p>
+            <img src="../img/personal-dashboard-square.png" alt="" class="intro__img">
+
+        </section>
+        
+        
+        <div class="portfolio-item-individual">
+            <div >
+                <a class="shadow" target="_blank" href="https://github.com/ShelbyChen666/Personal-Dashboard.git"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="shadow" target="_blank" href="https://shelby-personal-dashboard.netlify.app/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <p>Personal Dashboard is a Chrome extension that offers a customizable dashboard on each newly opened Chrome tab. It comes with real-time information about the user's location such as date, time, and weather conditions, thanks to the OpenWeather API. Additionally, the Unsplash API provides an attractive and dynamically changing background image each time the user opens a new tab.</p>
+            <p>The app is built using HTML, CSS, and JavaScript, with special attention given to async JS practices for improving performance and optimizing data retrieval from APIs. The extension is easy to install and provides a convenient and personalized experience for users who frequently use Chrome.</p>
+            <p>Personal Dashboard is a smooth and functional extension that improves the user's browsing experience. It offers real-time and pertinent information that keeps users informed about the current weather and time, while also providing visually pleasing background images that change with each new tab opening.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:shelbychen666@gmail.com" class="footer__link">shelbychen666@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://github.com/ShelbyChen666">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="../js/index.js"></script>
+        
+    </body>
+</html>
